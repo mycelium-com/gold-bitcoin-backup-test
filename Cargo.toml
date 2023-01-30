@@ -1,0 +1,16 @@
+[package]
+name = "gold-bitcoin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "*"
+bs58 = "*"
+bitvec = "*"
+scrypt = { version = "*", default-features = false }
+aes = "*"
+cbc = "*"
+sha256 = "*"
+sha2 = "*"
